@@ -1,0 +1,84 @@
+body {
+background-color: rgba(41, 141, 212, 0.582);
+}
+.title {
+text-align: center;
+padding: 30px;
+font-size: 50px;
+}
+.title span {
+    color: rgb(6, 64, 255);
+    font-size: 40px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main img {
+    max-width: 600px;
+}
+.main-info {
+max-width: 500px;
+}
+.main-info ul {
+padding-left: 17px;
+}
+.main-info a {
+    color: rgb(6, 64, 255);
+    font-size: 20px;
+}
+.form {
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+.form input {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(49, 17, 230, 0.897)
+}
+.form button {
+    background-color:  rgb(6, 64, 255);
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 3px  rgb(6, 64, 255);
+}
+
+.form button :hover {
+    background-color:  rgb(255, 255, 255);
+    padding: 16px;
+    border: 3px  rgb(6, 64, 255);
+}
+.main-info2 {
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+}
+.main-info2 img {
+    max-width: 420px;
+    margin-left: 400px;
+    border-radius: 70px;
+    
+}
+.main-info2 p {
+    text-align: left;  
+    margin-left: 60px;       
+    font-size: 18px; 
+}
+.main-info2 h3 {
+    text-align: left;  
+    margin-left: 60px;       
+    font-size: 18px; 
+}
+
